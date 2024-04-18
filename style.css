@@ -1,0 +1,317 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.ddd{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-color: #E1F9FD;
+}
+#menu{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding: 2em;
+    align-items: center;
+
+    }
+#menu button{
+    float: right;
+    margin-top: 1em;
+    padding: 1em;
+    background-color:white ;
+    border-radius: 15px;
+    width: 15%;
+}
+.c1{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    background-color: #E1F9FD;
+    text-align: justify;
+
+}
+    
+#iiii{
+    margin-bottom: 1em ;
+    font-size: 50px;
+
+}
+
+
+
+
+
+.c1 div{
+    padding: 2em;
+}
+.c1 h1{
+    font-size:2.5
+}
+.c1 p{
+    font-size: 130%;
+}
+#button{
+    float: center;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: fuchsia;
+color: white;
+border-radius: 35px;
+width: 30%;
+
+
+}
+
+.s1{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: auto;
+  width: 70%;
+  height: 55%;
+  margin: 12%;
+  border: 3px solid  whitesmoke;
+  border-radius: 2%;
+  grid-template-columns: auto;
+}
+
+#yyyy{
+    margin-bottom: 0.5em;
+}
+
+
+
+
+.s2{
+    display:flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: auto;
+  width: 70%;
+  height: 60%;
+  margin: 12%;
+  border: 3px solid whitesmoke;
+  border-radius: 2%;
+  grid-template-columns: auto;
+
+}
+
+#oooo{
+    margin-bottom: 0.5em;
+
+
+
+
+}
+
+
+
+
+
+.s3{
+    display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: auto;
+  width: 70%;
+  height: 60%;
+  margin: 12%;
+  border: 3px solid whitesmoke;
+  border-radius: 2%;
+  grid-template-columns: auto;
+}
+
+#ssss{
+    margin-bottom: 0.5em;
+
+
+
+}
+
+.FIN{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #012326;
+    color: white;
+    padding: 1em ;
+    
+    
+
+
+
+
+}
+
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+
+@media (min-width:  0px) and (max-width: 600px) {
+#menu button{
+    float:right;
+padding: 0.5em;
+background-color: white;
+border-radius: 15px;
+width: 40%;}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 0.5em;
+}
+
+    .c1{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center ;
+        text-align: center;
+
+
+
+
+    }
+
+    #button{
+        float: center;
+        margin-top: 4em;
+        padding: 1em;
+        background-color: fuchsia;
+    color: white;
+    border-radius: 354px;
+    width: 90%;
+    border: none;
+    
+
+
+    }
+
+
+
+
+
+
+
+
+
+    .s1{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 82%;
+        padding: 3em;
+        text-align: center;
+        
+      
+        
+
+        
+       
+
+    }
+
+    .s2{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 82%;
+        padding: 2em;
+        text-align: center;
+        
+        
+    }
+
+
+
+    
+
+
+
+
+.s3{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 82%;
+    padding: 2em;
+    text-align: center;
+    
+   
+   
+}
+
+.FIN{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    align-content: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    text-align: start;
+    align-items: start;
+    
+
+}
+
+
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-left: 5em;
+    padding: 5em;
+
+
+}
+
+    
+}
+
+
+
+
+
+    
+
+
+
+
+    
+
+    
+
+    
+    
+
+
+
+
+
+
+
+
+   
+
+
+
+
+ 
+
+
+
